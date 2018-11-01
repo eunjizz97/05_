@@ -11,7 +11,7 @@ void addMatrix(int A[][COLS], int B[][COLS], int C[][COLS])
 			C[i][j] = A[i][j] + B[i][j];
 		}
 	}
-	return 1;
+	return ;
 }
 
 void printMatrix(int A[][COLS])
